@@ -3,30 +3,45 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float movementSpeed = 5f;
-    public float jumpForce = 10f;
-    public Transform groundCheck;
-    public LayerMask groundLayer;
+    public float moveSpeed = 10.0f;
 
-    private Rigidbody2D rb;
-    private bool isGrounded;
+    public float jumpForce = 500.0f;
 
+    Rigidbody2D rb;
 
+    public bool isGrounded = false;
+
+    public bool shouldJump = false;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
     void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-
         float horizontalInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(horizontalInput * movementSpeed, rb.linearVelocity.y);
 
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
+
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            shouldJump = true;
         }
     }
+    void FixedUpdate()
+    {
+        if (shouldJump == true)
+        {
+            shouldJump = false;
+            rb.AddForce(transform.up * jumpForce);
+        }
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        isGrounded = true;
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        isGrounded = false;
+    }
+
 }
