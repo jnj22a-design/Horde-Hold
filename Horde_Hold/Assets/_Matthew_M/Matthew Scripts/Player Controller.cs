@@ -4,13 +4,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 10.0f;
-
     public float jumpForce = 500.0f;
-
+    private float moveDirection;
     Rigidbody2D rb;
-
     public bool isGrounded = false;
-
     public bool shouldJump = false;
     void Start()
     {
@@ -18,9 +15,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-
-        transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
+        moveDirection = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -29,6 +24,8 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
+        rb.linearVelocity = new Vector2(moveDirection * moveSpeed, rb.linearVelocity.y);
+
         if (shouldJump == true)
         {
             shouldJump = false;

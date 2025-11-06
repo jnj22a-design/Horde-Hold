@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/_Matthew_M/Matthew Scenes/Title Scene.unity
     guid: 6910fbb2e711bef4d859eab72b2e6a1e
   - enabled: 1
-    path: Assets/_Matthew_M/Matthew Scenes/Level1.unity
+    path: Assets/_Matthew_M/Matthew Scenes/Level1 (B).unity
     guid: 075e5c2167230ac4b9b27c53755cef7f
+  - enabled: 1
+    path: Assets/_Matthew_M/Matthew Scenes/Level1 (G).unity
+    guid: f49d62ce9a579e34c9696593be41497c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
