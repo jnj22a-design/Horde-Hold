@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEditor;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +11,7 @@ public class MainMenuButtons : MonoBehaviour
     public GameObject PlayCanvas;
     public string SceneLoadName;
     public string SceneLoadName2;
+    public Animator anim;
 
     private void Start()
     {
@@ -41,13 +44,19 @@ public class MainMenuButtons : MonoBehaviour
         PlayCanvas.SetActive(false);
     }
 
+    IEnumerator CoolLevel1(string SceneLoadName)
+    {
+        anim.SetTrigger("Start");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneLoadName);
+    }
     public void LevelOne()
     {
-        SceneManager.LoadScene(SceneLoadName);
+        StartCoroutine(CoolLevel1(SceneLoadName));
     }
 
     public void LevelTwo()
     {
-        SceneManager.LoadScene(SceneLoadName2);
+        StartCoroutine(CoolLevel1(SceneLoadName2));
     }
 }
