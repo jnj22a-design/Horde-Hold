@@ -37822,6 +37822,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3092513623398631859, guid: 199d1234e0c915f4c9b95ae6426211b9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4920352203986511085, guid: ad39dd715c5fa4a499d2c2912ce12f44, type: 3}
     - target: {fileID: 7475136461075865273, guid: 199d1234e0c915f4c9b95ae6426211b9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -201614,8 +201618,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 627.8, y: 434.63}
-  m_SizeDelta: {x: 142.39, y: 173.7}
+  m_AnchoredPosition: {x: 595.11, y: 407.8}
+  m_SizeDelta: {x: 207.78, y: 227.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049208933
 MonoBehaviour:
@@ -202765,7 +202769,7 @@ PrefabInstance:
       objectReference: {fileID: 9071802263634468789}
     - target: {fileID: 4313976392597781067, guid: c04f020c82b26ef428d3690b57bbc8df, type: 3}
       propertyPath: SceneLoadName
-      value: Level1 (G)
+      value: Level1 (B)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
