@@ -3,8 +3,13 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    public GameManager gameManager;
+    private GameManager gameManager;
     private bool didCountPickup = false;
+
+    private void Start()
+    {
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
