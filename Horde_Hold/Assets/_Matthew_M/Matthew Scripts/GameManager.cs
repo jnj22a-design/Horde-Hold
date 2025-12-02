@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public Image KeyImage;
     public GameObject Door;
     public GameObject RealKey;
+    public Vector3 SpawnPoint;
 
     void Start()
     {
@@ -21,7 +22,6 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        livesText.text = "Lives: " + lives;
         zoinksText.text = "Zoinks: " + zoinks;
     }
 }
