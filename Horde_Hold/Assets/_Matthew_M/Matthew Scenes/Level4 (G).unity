@@ -37823,6 +37823,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3092513623398631859, guid: 199d1234e0c915f4c9b95ae6426211b9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4920352203986511085, guid: ad39dd715c5fa4a499d2c2912ce12f44, type: 3}
     - target: {fileID: 7475136461075865273, guid: 199d1234e0c915f4c9b95ae6426211b9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -202676,7 +202680,7 @@ PrefabInstance:
       objectReference: {fileID: 9071802263634468789}
     - target: {fileID: 4313976392597781067, guid: c04f020c82b26ef428d3690b57bbc8df, type: 3}
       propertyPath: SceneLoadName
-      value: Level3 (B)
+      value: End
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

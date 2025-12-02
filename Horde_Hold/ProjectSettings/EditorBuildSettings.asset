@@ -17,6 +17,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Matthew_M/Matthew Scenes/Level2 (B).unity
     guid: e6bce4ad82feb744a81b6a9cce262d58
+  - enabled: 1
+    path: Assets/_Matthew_M/Matthew Scenes/Level2 (G).unity
+    guid: 521199a025fd389428f46c22ca43b602
+  - enabled: 1
+    path: Assets/_Matthew_M/Matthew Scenes/Level3 (B).unity
+    guid: b3aa7ea1979fc4840bf35d215e42221f
+  - enabled: 1
+    path: Assets/_Matthew_M/Matthew Scenes/Level3 (G).unity
+    guid: f9a7e053218e1a644bbba3a289605168
+  - enabled: 1
+    path: Assets/_Matthew_M/Matthew Scenes/Level4 (B).unity
+    guid: adb6a50472109c54b8eb4a429dc1872e
+  - enabled: 1
+    path: Assets/_Matthew_M/Matthew Scenes/Level4 (G).unity
+    guid: 35c4c7d8e46d73a47a14dcf67d97ea1b
+  - enabled: 1
+    path: Assets/_Matthew_M/Matthew Scenes/End.unity
+    guid: 80a68376a099fc54c8086f48738b70ea
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
