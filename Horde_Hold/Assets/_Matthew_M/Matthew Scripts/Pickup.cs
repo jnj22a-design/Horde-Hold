@@ -18,6 +18,8 @@ public class Pickup : MonoBehaviour
             didCountPickup = true;
             gameManager.zoinks++;
             Destroy(gameObject);
+            gameManager.audioSource.clip = gameManager.coinClip;
+            gameManager.audioSource.Play();
         }
     }
 

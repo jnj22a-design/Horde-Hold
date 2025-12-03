@@ -13,11 +13,15 @@ public class GameManager : MonoBehaviour
     public GameObject Door;
     public GameObject RealKey;
     public Vector3 SpawnPoint;
+    public AudioSource audioSource;
+    public AudioClip keyClip;
+    public AudioClip coinClip;
 
     void Start()
     {
         KeyImage.enabled = false;
         RealKey.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()

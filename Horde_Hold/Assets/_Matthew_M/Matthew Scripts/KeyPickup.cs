@@ -12,6 +12,8 @@ public class KeyPickup : MonoBehaviour
             didCountPickup = true;
             gameManager.KeyImage.enabled = true;
             gameManager.Door.SetActive(false);
+            gameManager.audioSource.clip = gameManager.keyClip;
+            gameManager.audioSource.Play();
             Destroy(gameObject);
         }
     }

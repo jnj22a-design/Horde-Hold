@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class MainMenuButtons : MonoBehaviour
 {
     public GameObject MainCanvas;
-    public GameObject OptionsCanvas;
     public GameObject PlayCanvas;
+    public GameObject CreditsCanvas;
     public string SceneLoadName;
     public string SceneLoadName2;
     public Animator anim;
@@ -16,20 +16,21 @@ public class MainMenuButtons : MonoBehaviour
     private void Start()
     {
         MainCanvas.SetActive(true);
-        OptionsCanvas.SetActive(false);
         PlayCanvas.SetActive(false);
+        CreditsCanvas.SetActive(false);
     }
 
     public void StartButton()
     {
         MainCanvas.SetActive(false);
         PlayCanvas.SetActive(true);
+        CreditsCanvas.SetActive(false);
     }
 
-    public void OptionsButton()
+    public void CreditsButton()
     {
         MainCanvas.SetActive(false);
-        OptionsCanvas.SetActive(true);
+        CreditsCanvas.SetActive(true);
     }
 
     public void QuitButton()
@@ -40,8 +41,8 @@ public class MainMenuButtons : MonoBehaviour
     public void BackButton()
     {
         MainCanvas.SetActive(true);
-        OptionsCanvas.SetActive(false);
         PlayCanvas.SetActive(false);
+        CreditsCanvas.SetActive(false);
     }
 
     IEnumerator CoolLevel1(string SceneLoadName)

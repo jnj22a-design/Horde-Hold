@@ -16,4 +16,9 @@ public class LevelTransitions : MonoBehaviour
     {
         StartCoroutine(CoolLevel1(SceneLoadName));
     }
+
+    public void PushTheButton()
+    {
+        StartCoroutine (CoolLevel1(SceneLoadName));
+    }
 }
