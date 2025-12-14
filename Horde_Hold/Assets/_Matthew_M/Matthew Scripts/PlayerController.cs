@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     public bool isGrounded = false;
     public bool shouldJump = false;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,6 +27,21 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(moveDirection * moveSpeed, rb.linearVelocity.y);
+
+        if (rb.linearVelocity.x > 0)
+        {
+            animator.SetBool("isWalking", true);
+            spriteRenderer.flipX = false;
+        }
+        else if (rb.linearVelocity.x < 0)
+        {
+            animator.SetBool("isWalking", true);
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
 
         if (shouldJump == true)
         {

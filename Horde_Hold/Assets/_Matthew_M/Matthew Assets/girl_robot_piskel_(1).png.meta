@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: f01adfe6021c05f4dbad25e731006c1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8777092184221691884
+    second: girl_robot_piskel_(1)_0
+  - first:
+      213: -8950077696370283965
+    second: girl_robot_piskel_(1)_1
+  - first:
+      213: -3101184161758550111
+    second: girl_robot_piskel_(1)_2
+  - first:
+      213: 7826516624970298232
+    second: girl_robot_piskel_(1)_3
+  - first:
+      213: 7477126970742721730
+    second: girl_robot_piskel_(1)_4
+  - first:
+      213: 9092826907807562206
+    second: girl_robot_piskel_(1)_5
+  - first:
+      213: -5223680262109250255
+    second: girl_robot_piskel_(1)_6
+  - first:
+      213: -6202013955475638052
+    second: girl_robot_piskel_(1)_7
+  - first:
+      213: -3091676316853762239
+    second: girl_robot_piskel_(1)_8
+  - first:
+      213: 6516660476939987827
+    second: girl_robot_piskel_(1)_9
+  - first:
+      213: -6701452578019675683
+    second: girl_robot_piskel_(1)_10
+  - first:
+      213: -7874506820791376644
+    second: girl_robot_piskel_(1)_11
+  - first:
+      213: 9011570347697812381
+    second: girl_robot_piskel_(1)_12
+  - first:
+      213: -2012166436643829478
+    second: girl_robot_piskel_(1)_13
+  - first:
+      213: 4221555979553537287
+    second: girl_robot_piskel_(1)_14
+  - first:
+      213: 5034213416975953124
+    second: girl_robot_piskel_(1)_15
+  - first:
+      213: 1984546559796671395
+    second: girl_robot_piskel_(1)_16
+  - first:
+      213: 2752372084926461729
+    second: girl_robot_piskel_(1)_17
+  - first:
+      213: 5309317179633961968
+    second: girl_robot_piskel_(1)_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_0
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 6621
+        width: 1124
+        height: 1718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef2469a6de7ec970800000000000000
+      internalID: 8777092184221691884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_1
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 7677
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ae3b331cfeac380800000000000000
+      internalID: -8950077696370283965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_2
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 6621
+        width: 1124
+        height: 1718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a760578f6166f4d0800000000000000
+      internalID: -3101184161758550111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_3
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 7677
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8733b0c576f5d9c60800000000000000
+      internalID: 7826516624970298232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_4
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 5972
+        width: 1124
+        height: 1817
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cccc974d5714c760800000000000000
+      internalID: 7477126970742721730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9bbf395e5303e70800000000000000
+      internalID: 9092826907807562206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d32c45a72c187b0800000000000000
+      internalID: -5223680262109250255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_7
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 4498
+        width: 1124
+        height: 1718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8fbdbca250ee9a0800000000000000
+      internalID: -6202013955475638052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_8
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147817d25c82815d0800000000000000
+      internalID: -3091676316853762239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_9
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37be5d15d24df6a50800000000000000
+      internalID: 6516660476939987827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_10
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 5554
+        width: 79
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1f208d268aff2a0800000000000000
+      internalID: -6701452578019675683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_11
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4e65574c128b290800000000000000
+      internalID: -7874506820791376644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_12
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93b8f26c778f0d70800000000000000
+      internalID: 9011570347697812381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_13
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 4498
+        width: 1124
+        height: 1718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1981ea69495314e0800000000000000
+      internalID: -2012166436643829478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_14
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70df6b0fbcaf59a30800000000000000
+      internalID: 4221555979553537287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_15
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec6b5a2e6e1dd540800000000000000
+      internalID: 5034213416975953124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_16
+      rect:
+        serializedVersion: 2
+        x: 3970
+        y: 5554
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a377e0e4968a8b10800000000000000
+      internalID: 1984546559796671395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_17
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1715
+        width: 1124
+        height: 1839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1273ebb14d3623620800000000000000
+      internalID: 2752372084926461729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_robot_piskel_(1)_18
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 1715
+        width: 1124
+        height: 1839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb06fb48db7ea940800000000000000
+      internalID: 5309317179633961968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      girl_robot_piskel_(1)_0: 8777092184221691884
+      girl_robot_piskel_(1)_1: -8950077696370283965
+      girl_robot_piskel_(1)_10: -6701452578019675683
+      girl_robot_piskel_(1)_11: -7874506820791376644
+      girl_robot_piskel_(1)_12: 9011570347697812381
+      girl_robot_piskel_(1)_13: -2012166436643829478
+      girl_robot_piskel_(1)_14: 4221555979553537287
+      girl_robot_piskel_(1)_15: 5034213416975953124
+      girl_robot_piskel_(1)_16: 1984546559796671395
+      girl_robot_piskel_(1)_17: 2752372084926461729
+      girl_robot_piskel_(1)_18: 5309317179633961968
+      girl_robot_piskel_(1)_2: -3101184161758550111
+      girl_robot_piskel_(1)_3: 7826516624970298232
+      girl_robot_piskel_(1)_4: 7477126970742721730
+      girl_robot_piskel_(1)_5: 9092826907807562206
+      girl_robot_piskel_(1)_6: -5223680262109250255
+      girl_robot_piskel_(1)_7: -6202013955475638052
+      girl_robot_piskel_(1)_8: -3091676316853762239
+      girl_robot_piskel_(1)_9: 6516660476939987827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
